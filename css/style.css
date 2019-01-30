@@ -34,8 +34,9 @@ h4 {
     font-size: 25px !important;
     line-height: 1.7;
     font-weight: 500;
-    text-align: center;
+    text-align: justify;
 }
+
 
 @media screen and (min-width: 600px) {
     h4 {
@@ -46,13 +47,35 @@ h4 {
 
 @media screen and (max-width: 800px) {
     h4 {
-        justify-content: center;
+        text-align: justify;
         margin-left: 40%;
         margin-right: 40%;
     }
 }
+h5{
+    color: #69422c !important;
+    font-size: 20px !important;
+    line-height: 1.7;
+    font-weight: 500;
+    text-align: center;
+}
 
-
+.nue-pro{
+    color: white;
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:  20px;
+    border-bottom-right-radius:  20px;
+    border-top-right-radius: 20px;
+    height: 40px;
+    width: 226px;
+    background: #4b3621;
+}
+h6{
+    color: #69422c !important;
+    font-size: 20px;
+    text-align: justify;
+}
 #lnkCompra {
     color: white;
     font-size: 45px;
@@ -67,9 +90,18 @@ h4 {
 
 .nues-tro {
     color: #4b3621 !important;
-    line-height: 1.5;
+    font-weight: 400 !important;
+    font-size: 121px;
+    line-height: 1.0;
+    font-style: italic;
 }
-
+.nues-tro1{
+    color: #4b3621 !important;
+    font-weight: 500 !important;
+    font-size: 70px;
+    line-height: 0.4;
+    font-style: normal;
+}
 #img-text {
     background: #4b3621;
     border-bottom-left-radius: 40px;
@@ -81,9 +113,6 @@ h4 {
     border: transparent;
 
 }
-
-
-
 
 #puntoApi {
     color: white;
@@ -162,7 +191,6 @@ h4 {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #4b3621;
 }
 
 .bnc-deg {
@@ -235,7 +263,7 @@ h4 {
 #deb-a {
     color: white;
     border-top-right-radius: 100px;
-    height: 89px;
+    height: 75px;
     width: 300px;
     background: #4b3621;
     position: relative;
@@ -244,7 +272,7 @@ h4 {
     text-align: center;
     font-weight: 500;
     font-size: 40px;
-    line-height: 2.2;
+    line-height: 2.1;
 }
 
 .cf-c {
@@ -281,8 +309,18 @@ h4 {
     float: right;
     position: relative;
     height: 150px;
-    top: 248px;
+    top: 150px;
    }
+
+
+
+.vid-pr2{
+    width: 130%;
+    position: relative;
+    height: 150px;
+    top: 150px;
+    line-height: 4.1;
+}
 
 .cf-mc {
     background: #69422c;
