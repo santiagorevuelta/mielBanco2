@@ -1,27 +1,21 @@
-@font-face {
-    font-family: 'Carter One';
-    src: url('fonts/CarterOne.eot');
-    /* IE9 Compat Modes */
-    src: local('Carter One'), local('CarterOne'), url('fonts/CarterOne.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/CarterOne.woff') format('woff'), /* Modern Browsers */ url('fonts/CarterOne.ttf') format('truetype');
-    /* Safari, Android, iOS */
-    font-weight: normal;
-    font-style: normal;
-}
+/*@font-face {*/
+    /*font-family: 'Helvetica Neue';*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+/*}*/
 
-@font-face {
-    font-family: 'Roboto Condensed';
-    src: url('fonts/he-condensed-v16-latin-regular.eot');
-    /* IE9 Compat Modes */
-    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url('fonts/roboto-condensed-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/roboto-condensed-v16-latin-regular.woff') format('woff'), /* Modern Browsers */ url('fonts/roboto-condensed-v16-latin-regular.ttf') format('truetype');
-    /* Safari, Android, iOS */
-    font-weight: normal;
-    font-style: normal;
-}
+/*@font-face {*/
+    /*font-family: 'Helvetica Neue';*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+/*}*/
 
-
-
-body{
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+/*html body, html body * {*/
+    /*font-family: 'Helvetica Neue' !important;*/
+    /*outline: none !important;*/
+/*}*/
+html body *{
+    font-family: Helvetica;
 }
 
 .font-bgr {
@@ -100,7 +94,7 @@ h5{
     border-top-right-radius: 30px;
     height: 60px;
     width: 330px;
-    background: #4b3621;
+    background: #69422c;
     border: transparent;
 
 }
@@ -126,7 +120,7 @@ h5{
     border-top-right-radius: 30px;
     height: 70px;
     width: 230px;
-    background: #4b3621;
+    background: #69422c;
     border: transparent;
 }
 
@@ -158,31 +152,30 @@ h6{
     border-top-right-radius: 50px;
     height: 90px;
     width: 426px;
-    background: #4b3621;
+    background: #69422c;
     border: transparent;
 }
 
 .nues-tro {
-    color: #4b3621 !important;
+    color: #69422c !important;
     font-weight: 400 !important;
     font-size: 121px;
     line-height: 1.0;
     font-style: italic;
 }
 .nues-tro1{
-    color: #4b3621 !important;
+    color: #69422c !important;
     font-weight: 500 !important;
     font-size: 70px;
-    line-height: 0.4;
     font-style: normal;
 }
 #img-text {
-    background: #4b3621;
+    background: #69422c;
     border-bottom-left-radius: 40px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
-    height: 661px !important;
+    height: 616px!important;
     width: 52% !important;
     border: transparent;
 
@@ -194,7 +187,7 @@ h6{
     border-bottom-right-radius: 55px;
     height: 50px;
     width: 57%;
-    background: #4b3621;
+    background: #69422c;
     float: right;
     border: transparent;
     text-align: center;
@@ -216,7 +209,7 @@ h6{
 
 @media screen and  (max-width: 1400px) {
     #img-text {
-        background: #4b3621;
+        background: #69422c;
         border-bottom-left-radius: 40px;
         border-top-left-radius: 40px;
         border-bottom-right-radius: 40px;
@@ -239,7 +232,7 @@ h6{
         border-bottom-right-radius: 86px;
         height: 51px;
         width: 67%;
-        background: #4b3621;
+        background: #69422c;
         float: right;
         border: transparent;
         text-align: center;
@@ -250,12 +243,16 @@ h6{
     }
 }
 
+#abv{
+    height: 210px;
+    width: 260px;
+}
 .miel-deg {
     font-weight: 300;
     line-height: 0.1;
     font-style: normal;
     font-size: 66px;
-    color: #4b3621;
+    color: #69422c;
 }
 
 .abj-deg {
@@ -263,7 +260,7 @@ h6{
     font-weight: 400;
     font-size: 20px;
     font-style: italic;
-    color: #4b3621;
+    color: #69422c;
 }
 
 .img-center {
@@ -291,7 +288,7 @@ h6{
 
 .text-bottom {
     font-size: 21px;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     font-style: normal;
     line-height: 3.3 !important;
     overflow: auto;
@@ -303,7 +300,7 @@ h6{
     border-top-right-radius: 100px;
     height: 75px;
     width: 300px;
-    background: #4b3621;
+    background: #69422c;
     position: relative;
     float: left;
     border: transparent;
@@ -329,7 +326,7 @@ h6{
 }
 
 .vid-pr{
-    background: #4b3621;
+    background: #69422c;
     color: #FFFFFF;
     width: 61%;
     -moz-border-radius: 100px 0px 0px 0px;
@@ -339,7 +336,7 @@ h6{
     position: relative;
     height: 150px;
     text-align: right;
-    font-size: 36px;
+    font-size: 33px;
 }
 
 .vid-pr1{
