@@ -1,30 +1,20 @@
-/*@font-face {*/
-    /*font-family: 'Helvetica Neue';*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
-/*}*/
-
-/*@font-face {*/
-    /*font-family: 'Helvetica Neue';*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
-/*}*/
-
-/*html body, html body * {*/
-    /*font-family: 'Helvetica Neue' !important;*/
-    /*outline: none !important;*/
-/*}*/
 html body *{
-    font-family: Helvetica;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-family: Roboto;
 }
 
 .font-bgr {
     background-image: url("../img/FONDO.png");
 
 }
-.hex{
-    width: 250px;
+@media screen and (max-width: 800px){
+    .hex{
+        padding: 50%;
+        width: 100%;
+        height: auto;
+    }
 }
+
 
 .pGeneral {
     text-align: center;
@@ -42,42 +32,33 @@ html body *{
 }
 
 
-#hex {
-    width: 50%;
-    font-size: 23px;
-    line-height: 3.6;
-    font-weight: 400;
-}
-
 h4 {
     color: #69422c !important;
-    font-size: 25px !important;
+    font-size: 200% !important;
     line-height: 1.7;
     font-weight: 500;
     text-align: justify;
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 999px) {
     h4 {
-        margin-left: 20%;
-        margin-right: 20%;
-        text-align: justify;
+        font-size: 130% !important;
+        padding-right: 15%;
+        padding-left: 15%;
     }
 }
+@media screen and (min-width: 1000px) {
+    h4 {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
 
-/*@media screen and (max-width: 800px) {*/
-    /*h4 {*/
-        /*text-align: justify;*/
-        /*margin-left: 40%;*/
-        /*margin-right: 40%;*/
-    /*}*/
-/*}*/
+}
 
 h5{
     color: #69422c !important;
-    font-size: 20px !important;
-    line-height: 1.7;
+    font-size: 130% !important;
     font-weight: 500;
     text-align: center;
 }
@@ -96,7 +77,7 @@ h5{
     width: 330px;
     background: #69422c;
     border: transparent;
-
+    margin-top: 5%;
 }
 
 .footer-items{
@@ -105,7 +86,6 @@ h5{
     line-height: 1.2;
     font-weight: 500;
     text-align: justify;
-    font-family: Helvetica;
 }
 
 .nue-pro{
@@ -114,12 +94,12 @@ h5{
     font-style: normal;
     font-size: 30px;
     color: white;
-    border-bottom-left-radius: 30px;
-    border-top-left-radius:  30px;
-    border-bottom-right-radius:  30px;
-    border-top-right-radius: 30px;
-    height: 70px;
-    width: 230px;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    height: auto;
+    width: 90%;
     background: #69422c;
     border: transparent;
 }
@@ -157,17 +137,16 @@ h6{
 }
 
 .nues-tro {
-    color: #69422c !important;
+    color: #69422c !important;""
     font-weight: 400 !important;
-    font-size: 121px;
-    line-height: 1.0;
-    font-style: normal;
+    font-size: 600%;
+    font-style: italic;
 }
 .nues-tro1{
     color: #69422c !important;
     font-weight: 500 !important;
-    font-size: 70px;
-    font-style: normal;
+    font-size: 590%;
+    font-style: italic;
 }
 #img-text {
     background: #69422c;
@@ -175,18 +154,18 @@ h6{
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
-    height: 616px!important;
+    height: auto;
     width: 52% !important;
     border: transparent;
-
+    padding-bottom: 5px;
 }
 
 #puntoApi {
     color: white;
-    border-top-left-radius: 91px;
-    border-bottom-right-radius: 55px;
-    height: 50px;
-    width: 57%;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 45px;
+    height: auto;
+    width: 60%;
     background: #69422c;
     float: right;
     border: transparent;
@@ -194,29 +173,29 @@ h6{
     font-weight: 500;
     font-size: 23px;
     line-height: 2.5;
-    margin-top: -51px;
+    margin-top: -50px;
     margin-right: 22px;
 }
 
 #img-text-2 {
     background: white;
     width: 90%;
-    height: 52%;
+    height: 50%;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
+    padding-top: 65%;
+
 }
 
 
 @media screen and  (max-width: 1400px) {
     #img-text {
-        background: #69422c;
         border-bottom-left-radius: 40px;
         border-top-left-radius: 40px;
         border-bottom-right-radius: 40px;
         border-top-right-radius: 40px;
-        height: 470px  !important;
-        width: 65% !important;
-        border: transparent;
+        width: 60% !important;
+        padding-bottom: 5px;
     }
     #img-text-2 {
         background: white;
@@ -230,8 +209,8 @@ h6{
         color: white;
         border-top-left-radius: 90px;
         border-bottom-right-radius: 86px;
-        height: 51px;
-        width: 67%;
+        height: auto;
+        width: 68%;
         background: #69422c;
         float: right;
         border: transparent;
@@ -244,8 +223,8 @@ h6{
 }
 
 #abv{
-    height: 210px;
-    width: 260px;
+    height: auto;
+    width: 15%;
 }
 .miel-deg {
     font-weight: 300;
@@ -314,33 +293,29 @@ h6{
 .cf-c {
     background: #835b3b;
     color: #FFFFFF;
-    height: 190px;
+    height: auto;
+    text-align: justify;
     font-size: 20px;
 }
 
 .cf-o {
     background: #9f7456;
     color: #FFFFFF;
-    height: 190px;
+    height: auto;
+    text-align: justify;
     font-size: 20px;
 
 }
-
-.vid-pr{
-    background: #69422c;
-    color: #FFFFFF;
-    width: 58%;
-    -moz-border-radius: 100px 0px 0px 0px;
-    -webkit-border-radius: 130px 0px 0px 0px;
-    float: right;
-    overflow: auto;
-    position: relative;
-    height: 150px;
-    text-align: left;
-    font-size: 33px;
-    padding-left: 46px;
+.li-as{
+    margin-bottom: 20%;
 }
 
+.cf-mc {
+    background: #69422c;
+    color: #FFFFFF;
+    height: auto;
+    font-size: 20px;
+}
 .vid-pr1{
     background: #69422c;
     color: #FFFFFF;
@@ -350,24 +325,13 @@ h6{
     float: right;
     overflow: auto;
     position: relative;
-    height: 150px;
     text-align: left;
-    font-size: 33px;
-    padding-left: 66px;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
    }
 
-
-
-.vid-pr2{
-    width: 130%;
-    position: relative;
-    height: 150px;
-    line-height: 4.1;
-}
-
-.cf-mc {
-    background: #69422c;
-    color: #FFFFFF;
-    height: 190px;
-    font-size: 20px;
+.vid-pr1>span{
+    font-size: 30px;
+    text-align: justify;
 }
